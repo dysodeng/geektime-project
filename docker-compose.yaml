@@ -10,6 +10,7 @@ services:
       - .env
     ports:
       - "8080:8080"
+      - "9000:9000"
     environment:
       - db_host=${db_host}
       - db_port=${db_port}
