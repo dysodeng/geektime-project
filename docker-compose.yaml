@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  app:
+    image: demo_app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    environment:
+      - db_host=${db_host}
+      - db_port=${db_port}
+      - db_user=${db_user}
+      - db_passwd=${db_passwd}
+      - db_database=${db_database}
+      - etcd_host=${etcd_host}
+      - etcd_port=${etcd_port}

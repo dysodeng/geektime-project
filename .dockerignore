@@ -1,0 +1,10 @@
+/.idea
+/.vscode
+/.git
+.env
+.env.*
+README.md
+Dockerfile
+docker-compose.*
+.dockerignore
+/var/*
