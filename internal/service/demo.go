@@ -2,11 +2,14 @@ package service
 
 import (
 	"github.com/dysodeng/project/internal/entity"
+	"github.com/dysodeng/project/internal/service/contracts"
 	"github.com/dysodeng/project/pkg/db"
 	"github.com/pkg/errors"
 )
 
 type DemoService struct{}
+
+var _ contracts.DemoServiceInterface = new(DemoService)
 
 func NewDemoService() *DemoService {
 	return &DemoService{}
