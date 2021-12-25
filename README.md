@@ -32,5 +32,5 @@ project
   如果2个服务的参数是同一个数据类型，那么只能使用同一个参数，当传多个同类型参数时，编译错误
 ![img.png](https://github.com/dysodeng/geektime-project/blob/master/image/img.png)
 ![img_1.png](https://github.com/dysodeng/geektime-project/blob/master/image/img_1.png)
-只传同一种类型只传一个，就能编译通过，但是又不符合业务逻辑
+- 只传同一种类型只传一个，就能编译通过，但是又不符合业务逻辑
 ![img_2.png](https://github.com/dysodeng/geektime-project/blob/master/image/img_2.png)
