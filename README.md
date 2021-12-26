@@ -23,6 +23,7 @@ project
 |-- main.go 主入口
 |-- db.sql 本次作业使用的数据库sql
 |-- .env 环境变量配置文件
+|-- pre-commit git commit hook
 |-- ...
 ```
 
